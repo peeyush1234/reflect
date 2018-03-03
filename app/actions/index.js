@@ -1,5 +1,5 @@
 import * as ReflectionActions from './reflections';
 
-export const ActionCreator = Object.assign({},
+export const ActionCreators = Object.assign({},
     ReflectionActions,
 );

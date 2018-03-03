@@ -1,1 +1,2 @@
 export const GET_REFLECTION = 'GET_REFLECTION';
+export const ADD_REFLECTION = 'ADD_REFLECTION';

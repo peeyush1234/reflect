@@ -6,7 +6,7 @@ import { createLogger } from 'redux-logger';
 import React from 'react';
 
 import reducer from './app/reducers';
-import Reflection from './reflection';
+import AppContainer from './app/containers/appContainer';
 
 const loggerMiddleware = createLogger({ predicate: (getState, action) => __DEV__});
 
@@ -24,7 +24,7 @@ const store = configureStore({});
 
 const App = () => (
     <Provider store={store}>
-        <Reflection />
+        <AppContainer />
     </Provider>
 );
 
